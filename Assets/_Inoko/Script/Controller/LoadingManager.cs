@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace InnoStudio
 {
@@ -18,7 +19,7 @@ namespace InnoStudio
 
         void LoadSceneMasterLevel()
         {
-
+            SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
         }
     }
 }

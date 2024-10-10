@@ -22,6 +22,7 @@ namespace InnoStudio
         public SoundManager SoundManager => soundManager;
         public FeatureController FeatureController => featureController;
         public EventGameController EventGameController => eventGameController;
+        public PlayerDataManager PlayerDataManager => PlayerDataManager.Instance;
 
         public GameFSMController GameFSMController;
 
@@ -37,6 +38,8 @@ namespace InnoStudio
         private void Start()
         {
             UIController.Init();
+            DataLevel dataLevel = new DataLevel();
+            PlayerDataManager.SetDataLevel(dataLevel);
         }
 
         public void Update()

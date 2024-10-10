@@ -12,5 +12,25 @@ namespace InnoStudio
         {
             Instance = this;
         }
+
+        public void SetDataLevel(DataLevel gameLevel)
+        {
+            PlayerPrefs.SetString("DataLevel", JsonUtility.ToJson(gameLevel));
+        }
+
+        public DataLevel GetDataLevel()
+        {
+            DataLevel gameLevel = JsonUtility.FromJson<DataLevel>(PlayerPrefs.GetString("DataLevel", null));
+            return gameLevel;
+        }
+    }
+
+    [System.Serializable]
+    public class DataLevel
+    {
+        public int currentLevel;
+        public int maxLevel;
+        public int levelDisplay;
+        public bool isLoop;
     }
 }

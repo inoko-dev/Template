@@ -13,7 +13,7 @@ namespace InnoStudio
 
         public void OnEnter()
         {
-            
+            Debug.Log("OnInGame");
         }
 
         public void OnExit()
@@ -33,7 +33,6 @@ namespace InnoStudio
 
         public void OnUpdate()
         {
-            Debug.LogError("InGame");
         }
     }
 }

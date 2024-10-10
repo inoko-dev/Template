@@ -13,7 +13,7 @@ namespace InnoStudio
 
         public void OnEnter()
         {
-
+            Debug.Log("OnLobby");
         }
 
         public void OnExit()
@@ -31,7 +31,6 @@ namespace InnoStudio
 
         public void OnUpdate()
         {
-            Debug.LogError("Lobby");
         }
     }
 }
