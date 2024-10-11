@@ -4,10 +4,11 @@ using UnityEngine;
 
 namespace InnoStudio 
 {
-    public class LobbyManager : LevelManager
+    public class DataLevelGame : ScriptableObject
     {
-        public override void StartLevel()
+        public int GetCountLevel()
         {
+            return 1;
         }
     }
 }

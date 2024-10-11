@@ -4,8 +4,11 @@ using UnityEngine;
 
 namespace InnoStudio
 {
-    public class UIEndGame : UICanvas
+    public class UILose : UICanvas
     {
-        
+        public void Init()
+        {
+
+        }
     }
 }

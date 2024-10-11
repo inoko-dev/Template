@@ -388,6 +388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4807355504030373728, guid: 7592bb62274c27541a0fc4d5755c9b33, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8931299915740140084, guid: 7592bb62274c27541a0fc4d5755c9b33, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -473,6 +477,39 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7592bb62274c27541a0fc4d5755c9b33, type: 3}
+--- !u!114 &1401132461780599702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2062079819018682613, guid: 7592bb62274c27541a0fc4d5755c9b33, type: 3}
+  m_PrefabInstance: {fileID: 1401132461780599701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b436df869a71774f90856e8aa780657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1401132461780599703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2291171081963405480, guid: 7592bb62274c27541a0fc4d5755c9b33, type: 3}
+  m_PrefabInstance: {fileID: 1401132461780599701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2030aee3ab0b2fd4ca5c9ede7caa2e84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1401132461780599704 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8682839634507147523, guid: 7592bb62274c27541a0fc4d5755c9b33, type: 3}
+  m_PrefabInstance: {fileID: 1401132461780599701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac377d075347b3448a3d0fb99c6288b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2840921780278693738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -481,6 +518,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1195326473533771246, guid: fa8cbb9e40423a84b951f9cd2c5e3198, type: 3}
+      propertyPath: UIWin
+      value: 
+      objectReference: {fileID: 5443063169989065146}
+    - target: {fileID: 1195326473533771246, guid: fa8cbb9e40423a84b951f9cd2c5e3198, type: 3}
+      propertyPath: UILose
+      value: 
+      objectReference: {fileID: 1401132461780599702}
+    - target: {fileID: 1195326473533771246, guid: fa8cbb9e40423a84b951f9cd2c5e3198, type: 3}
+      propertyPath: UILobby
+      value: 
+      objectReference: {fileID: 1401132461780599704}
+    - target: {fileID: 1195326473533771246, guid: fa8cbb9e40423a84b951f9cd2c5e3198, type: 3}
+      propertyPath: UIInGame
+      value: 
+      objectReference: {fileID: 1401132461780599703}
     - target: {fileID: 1494100453610325072, guid: fa8cbb9e40423a84b951f9cd2c5e3198, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -525,11 +578,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8057358674848888969, guid: fa8cbb9e40423a84b951f9cd2c5e3198, type: 3}
+      propertyPath: isLoadSceneLevel
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa8cbb9e40423a84b951f9cd2c5e3198, type: 3}
+--- !u!114 &5443063169989065146 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1709603775504027873, guid: 7592bb62274c27541a0fc4d5755c9b33, type: 3}
+  m_PrefabInstance: {fileID: 1401132461780599701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2cf4762cdda0542b6bebfc6574a095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

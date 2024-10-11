@@ -4,11 +4,8 @@ using UnityEngine;
 
 namespace InnoStudio
 {
-    public class UIInGame : UICanvas
+    public class LoadLevelController : MonoBehaviour
     {
-        public void Init()
-        {
-
-        }
+        
     }
 }

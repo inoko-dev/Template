@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace InnoStudio
 {
-    public class UIInGame : UICanvas
+    public class UIWin : UICanvas
     {
         public void Init()
         {

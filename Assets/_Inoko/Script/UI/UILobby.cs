@@ -18,7 +18,7 @@ namespace InnoStudio
 
         public void OnBtnPlay()
         {
-            GameManager.Instance.GameFSMController.ChangeState(GameStateID.InGame);
+            GameManager.Instance.StartLevel();
         }
     }
 }

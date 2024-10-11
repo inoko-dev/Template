@@ -14,10 +14,12 @@ namespace InnoStudio
         public void OnEnter()
         {
             Debug.Log("OnLobby");
+            GameManager.Instance.UIController.OnEnterLobby();
         }
 
         public void OnExit()
         {
+            GameManager.Instance.UIController.OnExitLobby();
         }
 
         public void OnFixedUpdate()
